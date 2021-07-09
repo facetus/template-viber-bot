@@ -1,14 +1,13 @@
 # Template Viber Bot using Ebony Framework
-This is a template for a viber chatbot using Ebony framework. Start from here and create the best chatbot.
-Customize colors and the persistent menu in elements to your desire.
+This is a template for a Viber chatbot using the [Ebony Framework](https://github.com/chrispanag/ebony). Start from here and create the best chatbot.
+Customize the colors and the persistent menu elements to your desire.
 Then add modules with your flows and let your imagination run wild.
-
 
 ## How to start
 
 1. First you have to create a .env file
 
-    Copy the `exaplie.env` as `.env` and fell the fields.
+    Copy the `example.env` as `.env` and fill the fields.
 
 2. `yarn`
 
@@ -18,5 +17,4 @@ Then add modules with your flows and let your imagination run wild.
 
     To start your bot. Now just start creating!
 
-4. Browse throw the template and see some possible kind of messages you can send. 
-
+4. Browse the template and see some kinds of messages you can possibly send. 

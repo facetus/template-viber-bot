@@ -1,0 +1,41 @@
+{
+    "name": "dixons-demo-bot",
+    "version": "1.0.0",
+    "main": "./dist/server.js",
+    "description": "This is a demo bot for Dixons.",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "start": "yarn node ./dist/server.js",
+        "build": "yarn tsc",
+        "dev": "nodemon",
+        "lint": "yarn eslint '*/**/*.ts' --quiet --fix -c .eslintrc.js --ignore-path .eslintignore"
+    },
+    "dependencies": {
+        "@ebenos/framework": "^4.0.0-alpha.28",
+        "@ebenos/viber-adapter": "^4.0.0-alpha.28",
+        "@ebenos/viber-elements": "^4.0.0-alpha.28",
+        "@types/dotenv": "^8.2.0",
+        "@types/lodash": "^4.14.168",
+        "@types/node-fetch": "^2.5.10",
+        "body-parser": "^1.19.0",
+        "dotenv": "^8.2.0",
+        "lodash": "^4.17.21",
+        "node-fetch": "^2.6.1"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.22.0",
+        "@typescript-eslint/parser": "^4.22.0",
+        "eslint": "^7.24.0",
+        "eslint-config-prettier": "^8.2.0",
+        "eslint-plugin-prettier": "^3.4.0",
+        "mocha": "^8.3.2",
+        "nodemon": "^2.0.7",
+        "prettier": "^2.2.1",
+        "ts-mocha": "^8.0.0",
+        "typescript": "^4.2.4"
+    },
+    "peerDependencies": {
+        "mongoose": "^5.12.5"
+    }
+  }
